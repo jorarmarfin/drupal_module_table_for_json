@@ -1,0 +1,18 @@
+table_for_json.content:
+  path: '/table_for_json/data'
+  defaults:
+    _controller: '\Drupal\table_for_json\Controller\TableForJsonController::content'
+    _title: 'Table JSON Data'
+  methods:  [GET]
+  options:
+    _auth: [ 'basic_auth' ]
+  requirements:
+    _role: 'authenticated'
+
+table_for_json.admin:
+  path: '/admin/config/services/table-for-json'
+  defaults:
+    _form: '\Drupal\table_for_json\Form\TableForJsonSettingsForm'
+    _title: 'Table for Json'
+  requirements:
+    _permission: 'access administration pages'

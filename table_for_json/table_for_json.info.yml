@@ -1,0 +1,6 @@
+name: 'Table for JSON'
+type: module
+description: 'Exposes a designated table data in JSON format.'
+core_version_requirement: ^9 || ^10
+package: Custom
+version: '1.0.1'
