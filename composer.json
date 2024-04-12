@@ -1,0 +1,23 @@
+{
+  "name": "jorarmarfin/table_for_json",
+  "description": "This module converts a table into JSON data.",
+  "type": "drupal-module",
+  "keywords": [
+    "Drupal",
+    "json",
+    "table"
+  ],
+  "homepage": "http://luisitomayta.com/table_for_json",
+  "license": "MIt",
+  "authors": [
+    {
+      "name": "Luis Mayta",
+      "homepage": "https://luisitomayta.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/jorarmarfin/drupal_module_table_for_json",
+    "source": "https://github.com/jorarmarfin/drupal_module_table_for_json"
+  }
+}

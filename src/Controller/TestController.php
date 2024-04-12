@@ -2,9 +2,12 @@
 
 namespace Drupal\table_for_json\Controller;
 
-class AdminTableForJsonController
+use Drupal\CommonsTraits\Traits\TestTrait;
+
+class TestController
 {
-    public function content()
+    use TestTrait;
+    public function test()
     {
         return [
             '#type' => 'markup',

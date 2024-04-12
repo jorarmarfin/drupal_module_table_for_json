@@ -16,3 +16,11 @@ table_for_json.admin:
     _title: 'Table for Json'
   requirements:
     _permission: 'access administration pages'
+
+table_for_json.test:
+  path: '/table-for-json/test'
+  defaults:
+    _controller: '\Drupal\table_for_json\Controller\TestController::test'
+    _title: 'Test function'
+  requirements:
+    _access: 'TRUE'
